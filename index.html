@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="معرض أعمال رهف عبدالرحمن - مطورة ومصممة مواقع ويب">
+  <title>رهف عبدالرحمن | معرض أعمالي</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- شريط التنقل -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">ر.ع</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link">الرئيسية</a>
+        <a href="#projects" class="nav-link">أعمالي</a>
+        <a href="#skills" class="nav-link">المهارات</a>
+        <a href="#contact" class="nav-link">تواصل معي</a>
+      </nav>
+      <a href="#contact" class="btn btn-small btn-primary nav-cta">اطلب مشروعي</a>
+      <button class="nav-toggle" id="navToggle" aria-label="القائمة">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- القسم الترحيبي -->
+  <section id="home" class="hero">
+    <div class="hero-blob hero-blob-1"></div>
+    <div class="hero-blob hero-blob-2"></div>
+    <div class="container hero-content">
+      <span class="hero-badge">مرحباً بك!</span>
+      <h1 class="hero-title">رهف عبدالرحمن</h1>
+      <h2 class="hero-subtitle">مطورة ومصممة مواقع ويب</h2>
+      <p class="hero-text">
+        أصمم و أبني تجارب ويب عصرية تجمع بين الجمال الرقمي وإتقان البرمجة،
+        لتحول أفكارك إلى حلول إلكترونية مبتكرة وأنيقة.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">أعمالي</a>
+        <a href="#contact" class="btn btn-outline">تواصل معي</a>
+      </div>
+      <div class="hero-social">
+        <a href="#" aria-label="لينكدإن">in</a>
+        <a href="#" aria-label="تويتر">ي</a>
+        <a href="#" aria-label="فيسبوك">f</a>
+        <a href="mailto:ruhaf@example.com" aria-label="البريد الإلكتروني">@</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم أعمالي ومشاريعي -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">أعمالي ومشاريعي</h2>
+      <p class="section-subtitle">مشاريعي التي جمعت بين الإبداع والبرمجة</p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image project-image-1">
+            <span class="project-icon">🕶️</span>
+          </div>
+          <div class="project-body">
+            <h3>متجر النظارات الإلكتروني</h3>
+            <p>منصة متكاملة لبيع النظارات مع نظام تصفح تفاعلي ومفضيات ذكية.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small btn-primary">معاينة</a>
+              <a href="#" class="btn btn-small btn-outline">كود المصدر</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image project-image-2">
+            <span class="project-icon">🍰</span>
+          </div>
+          <div class="project-body">
+            <h3>ركن الحلويات</h3>
+            <p>موقع متجر متخصص لحلويات الأصلية مع نظام طلبات وتوصيل.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>Java</span><span>SQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small btn-primary">معاينة</a>
+              <a href="#" class="btn btn-small btn-outline">كود المصدر</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image project-image-3">
+            <span class="project-icon">🎨</span>
+          </div>
+          <div class="project-body">
+            <h3>ورشة الرسم الإلكتروني</h3>
+            <p>منصة عرض وكتابة محفظة الرسامين مع ملفات تعريف الأعمال.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small btn-primary">معاينة</a>
+              <a href="#" class="btn btn-small btn-outline">كود المصدر</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم المهارات -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">مهاراتي</h2>
+      <p class="section-subtitle">أدوات وأسلوب تطوير يمنحني قوة تنفيذية في كل مشروع</p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-header">
+            <h3>HTML</h3>
+            <span class="skill-percent">95%</span>
+          </div>
+          <div class="progress"><div class="progress-bar" style="--target: 95%;"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-header">
+            <h3>CSS</h3>
+            <span class="skill-percent">92%</span>
+          </div>
+          <div class="progress"><div class="progress-bar" style="--target: 92%;"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-header">
+            <h3>JavaScript</h3>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="progress"><div class="progress-bar" style="--target: 90%;"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-header">
+            <h3>Java</h3>
+            <span class="skill-percent">80%</span>
+          </div>
+          <div class="progress"><div class="progress-bar" style="--target: 80%;"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-header">
+            <h3>C#</h3>
+            <span class="skill-percent">78%</span>
+          </div>
+          <div class="progress"><div class="progress-bar" style="--target: 78%;"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-header">
+            <h3>SQL</h3>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="progress"><div class="progress-bar" style="--target: 85%;"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم تواصل معي -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">تواصل معي</h2>
+      <p class="section-subtitle">لن نكتمل رحلة مشروعك معاً</p>
+
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="contact-info-card">
+            <span class="contact-icon">📧</span>
+            <h3>البريد الإلكتروني</h3>
+            <p>ruhaf@example.com</p>
+          </div>
+          <div class="contact-info-card">
+            <span class="contact-icon">📱</span>
+            <h3>الهاتف</h3>
+            <p>+966 5X XXX XXXX</p>
+          </div>
+          <div class="contact-info-card">
+            <span class="contact-icon">📍</span>
+            <h3>الموقع</h3>
+            <p>الرياض، المملكة العربية السعودية</p>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name">الاسم</label>
+            <input type="text" id="name" name="name" placeholder="اسمك الكامل" required>
+          </div>
+          <div class="form-group">
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">رسالتك</label>
+            <textarea id="message" name="message" rows="5" placeholder="اكتب عن مشروعك هنا..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">إرسال الرسالة</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- التذييل -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 رهف عبدالرحمن — جميع الحقوق محفوظة</p>
+      <p class="footer-sub">صُنع بـ ❤️ بلغتين عربيتين</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+
+    links.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        links.classList.remove('open');
+        toggle.classList.remove('active');
+      });
+    });
+
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+</html>
